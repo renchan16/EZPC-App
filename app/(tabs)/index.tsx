@@ -40,9 +40,8 @@ export default function App() {
       resizeMode="cover"
     >
       <View style={styles.container}>
-        <Text style={styles.welcomeText}>Welcome!</Text>
         <Text style={styles.subheading}>
-          Welcome to EZPC, your go-to app for finding the perfect PC recommendations tailored just for you.
+          EZPC is a go-to application for finding the perfect PC recommendations tailored just for you.
         </Text>
 
         <Text style={styles.text}>Budget</Text>
@@ -130,18 +129,13 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: '95%',
   },
-  welcomeText: {
-    fontSize: 50,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 8,
-    textAlign: 'center',
-  },
   subheading: {
     fontSize: 15,
     color: '#fff',
     textAlign: 'center',
+    marginTop: 100,
     marginBottom: 24,
+    fontWeight: 'bold',
   },
   text: {
     fontSize: 20,
